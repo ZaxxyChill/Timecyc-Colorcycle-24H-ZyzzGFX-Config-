@@ -234,3 +234,10 @@ All original plugins, assets, and trademarks belong to their respective owners.
   <br>
   <sub>Graphics configuration by ZaxxETC</sub>
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white">
+  <img src="https://img.shields.io/badge/Game-GTA%20San%20Andreas-000000?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Architecture-ARM64-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/AML-v2.10-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Config-INI-yellow?style=for-the-badge">
+</p>
