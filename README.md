@@ -1,236 +1,110 @@
+<div align="center">
 
-# 🌆 GTA San Andreas — SDGE Reborn 2.0 Inspired Graphics Mod | Timecyc, Colorcycle & ZyzzGFX
+# GTA San Andreas – SDGE Reborn 2.0 Inspired Graphics
 
-<p align="center">
-  A custom Android graphics configuration inspired by ENB SDGE Reborn 2.0 for GTA San Andreas PC.
-  <br><br>
-  <strong>Custom Timecyc · Colorcycle 24H · ZyzzGFX Shaders</strong>
-</p>
+**A custom graphics configuration for GTA San Andreas Android.**
+
+Inspired by the visual atmosphere of ENB SDGE Reborn 2.0 from GTA San Andreas PC.
+
+</div>
 
 ---
 
-## 📖 Overview
+## 📖 About
 
-This project is a custom graphics modification for **GTA San Andreas Android**, inspired by the visual style and atmosphere of **ENB SDGE Reborn 2.0** from the PC version.
+This project is a custom graphics configuration for **GTA San Andreas Android**, inspired by the visual style of ENB SDGE Reborn 2.0 on PC.
 
-Unlike the original GTA SA graphics system, this setup does not use the standard Timecyc and Colorcycle files. Instead, it utilizes an external plugin called **`libTimecyc24_64.so`**, developed by **Killman aka RussJJ**, to handle the custom 24-hour Timecyc and Colorcycle system.
+It combines custom Timecyc, Colorcycle 24H, and ZyzzGFX configurations to create a distinctive visual atmosphere throughout different times of the day and weather conditions.
 
-Combined with the **ZyzzGFX Shader Plugin**, this configuration introduces customized environmental lighting, color grading, weather atmosphere, and shader adjustments.
-
-This repository provides the configuration files edited and prepared by ZaxxETC. The original ZyzzGFX plugin is NOT included.
+This is not a direct port of ENB SDGE Reborn 2.0. It is an independently configured graphics setup designed for the Android version.
 
 ## ✨ Features
 
-- **Custom Timecyc 24H** — Modified environmental lighting and atmosphere throughout the day.
-- **Custom Colorcycle 24H** — Adjusted environmental colors and visual tones.
-- **ZyzzGFX Shaders** — Custom shader configuration for the ZyzzGFX plugin.
-- **Cinematic Lighting** — Inspired by ENB SDGE Reborn 2.0 on PC.
-- **Weather Atmosphere** — Customized visual appearance for different weather conditions.
-- **Rain Reflections** — Visible wet-surface reflections during rainy conditions.
-- **Sunrise & Sunset** — Warm orange, pink, and golden color transitions.
-- **Night Lighting** — Dark blue atmosphere with enhanced environmental light contrast.
+- **Custom Timecyc** — Modified lighting, atmosphere, and environmental colors.
+- **Colorcycle 24H** — Custom color adjustments for different times of the day.
+- **ZyzzGFX Configuration** — Customized shader settings for the overall visual appearance.
+- **Dynamic Atmosphere** — Different visual moods across daytime, nighttime, sunrise, sunset, and rainy weather.
 
-## 🎨 Visual Showcase
+## 📸 Screenshots
 
-The following screenshots demonstrate the visual appearance of this configuration across different times and weather conditions.
+<div align="center">
 
-### Night & Lighting
+| Night | Rainy Night |
+|:---:|:---:|
+| ![Night](screenshots/01-night.jpg) | ![Rainy Night](screenshots/02-rain-night.jpg) |
 
-<p align="center">
-  <img src="screenshots/01-night.jpg" width="100%" alt="Night Lighting">
-  <br>
-  <em>Night lighting and environmental atmosphere</em>
-</p>
+| Daytime | Rainy Day |
+|:---:|:---:|
+| ![Daytime](screenshots/03-daytime.jpg) | ![Rainy Day](screenshots/04-rain-day.jpg) |
 
-<p align="center">
-  <img src="screenshots/02-rain-night.jpg" width="100%" alt="Rainy Night">
-  <br>
-  <em>Rainy night with wet-surface reflections</em>
-</p>
+| Sunrise | Clear Day |
+|:---:|:---:|
+| ![Sunrise](screenshots/05-sunrise.jpg) | ![Clear Day](screenshots/06-clear-day.jpg) |
 
-### Daytime & Weather
+| Sunset | Sunset Street |
+|:---:|:---:|
+| ![Sunset](screenshots/07-sunset.jpg) | ![Sunset Street](screenshots/08-sunset-street.jpg) |
 
-<p align="center">
-  <img src="screenshots/03-daytime.jpg" width="100%" alt="Daytime">
-  <br>
-  <em>Daytime lighting and environmental colors</em>
-</p>
+</div>
 
-<p align="center">
-  <img src="screenshots/04-rain-day.jpg" width="100%" alt="Rainy Day">
-  <br>
-  <em>Rainy weather with atmospheric lighting and road reflections</em>
-</p>
-
-### Sunrise & Sunset
-
-<p align="center">
-  <img src="screenshots/05-sunrise.jpg" width="100%" alt="Sunrise">
-  <br>
-  <em>Morning lighting and sunrise atmosphere</em>
-</p>
-
-<p align="center">
-  <img src="screenshots/06-clear-day.jpg" width="100%" alt="Clear Day">
-  <br>
-  <em>Clear daytime environment</em>
-</p>
-
-<p align="center">
-  <img src="screenshots/07-sunset.jpg" width="100%" alt="Sunset">
-  <br>
-  <em>Warm sunset color grading</em>
-</p>
-
-<p align="center">
-  <img src="screenshots/08-sunset-street.jpg" width="100%" alt="Sunset Street">
-  <br>
-  <em>Sunset atmosphere across the neighborhood</em>
-</p>
-
-## ⚙️ Graphics Components
-
-### 1. Timecyc & Colorcycle 24H
-
-**Plugin:** `libTimecyc24_64.so`  
-**Author:** Killman aka RussJJ
-
-This plugin replaces the regular Timecyc and Colorcycle system included in the original GTA SA game.
-
-It serves as the foundation for the custom 24-hour lighting and color configuration, allowing the game to use the modified environmental settings.
-
-### 2. ZyzzGFX Shader Plugin
-
-**Author:** Zyzz reincarnate
-
-ZyzzGFX handles the shader-related graphics configuration used in this setup.
-
-The provided configuration has been edited to complement the custom Timecyc and Colorcycle, creating a more consistent visual atmosphere.
-
-**Note:** The ZyzzGFX plugin itself is not included. Only its configuration files are distributed in this repository.
-
-## 📱 Compatibility
-
-| Component | Requirement |
-|:--|:--|
-| Game | GTA San Andreas Android |
-| AML | v2.10 |
-| Architecture | 64-bit (ARM64) |
-| Timecyc Plugin | `libTimecyc24_64.so` |
-| Graphics Plugin | ZyzzGFX |
-| Game Version | Compatible GTA SA 64-bit build |
-
-**Important:** This configuration is specifically designed for GTA SA AML v2.10 64-bit. Compatibility with other versions is not guaranteed.
-
-## 📁 Included Files
-
-| Component | Description |
-|:--|:--|
-| Timecyc | Custom 24-hour lighting configuration |
-| Colorcycle | Custom environmental color configuration |
-| ZyzzGFX | Modified shader configuration |
-
-This repository only distributes configuration files, not the original external plugins.
-
-## 📲 Installation Guide
-
-### Requirements
-
-Before installing, make sure you have:
+## 📋 Requirements
 
 - GTA San Andreas Android.
-- AML v2.10 64-bit.
+- AML v2.10 (64-bit / ARM64).
 - `libTimecyc24_64.so` plugin.
 - ZyzzGFX Shader Plugin.
-- Configuration files from this repository.
 
-### 1. Install Required Plugins
+**Note:** The required plugins are not included in this repository. Download them separately from their respective creators.
 
-The required plugins must be installed separately.
+## 📥 Installation
 
-This repository does not include the ZyzzGFX plugin or the original `libTimecyc24_64.so` plugin.
+1. Install GTA San Andreas with AML v2.10 (64-bit).
+2. Download and install the required Timecyc 24H and ZyzzGFX plugins separately.
+3. Download this repository.
+4. Extract the provided `com.rockstargames.gtasa` folder.
+5. Open your GTA San Andreas storage directory.
+6. Navigate to `android_unprotected/data/`.
+7. Copy the `com.rockstargames.gtasa` folder into that directory.
+8. Merge the files if prompted. Do not create an extra nested folder.
+9. Launch the game and enjoy the graphics.
 
-You can find the plugins and their installation tutorials on YouTube by searching:
+**Recommended:** Back up your original configuration files before installing.
+
+## 🛠️ Configuration & Components
+
+- **INI Configuration** — Graphics and engine settings.
+- **Timecyc 24H Plugin** — Custom 24-hour weather and lighting system.
+- **ZyzzGFX Shader Plugin** — Graphics shader configuration.
+- **Markdown** — Project documentation.
+
+## 🔍 Required Plugins
+
+Find the required plugins separately using these search terms:
 
 - `ZyzzGFX GTA SA Android`
 - `libTimecyc24_64.so GTA SA Android`
 
-Make sure both plugins are compatible with AML v2.10 64-bit.
+The plugin files are not distributed in this repository.
 
-### 2. Download Configuration
+## 🙏 Credits
 
-1. Download or clone this repository.
-2. Extract the downloaded archive.
-3. Locate the `com.rockstargames.gtasa` folder.
+Special thanks to the original creators:
 
-### 3. Copy Configuration Files
+- **Killman (RussJJ)** — Creator of `libTimecyc24_64.so`.
+- **Zyzz reincarnate** — Creator of ZyzzGFX Shader Plugin.
+- **ZaxxETC** — Custom Timecyc, Colorcycle 24H, and ZyzzGFX configuration.
 
-Copy the entire **`com.rockstargames.gtasa`** folder into the following directory:
+## ⚠️ Disclaimer
 
-```text
-android_unprotected/
-└── data/
-    └── com.rockstargames.gtasa/
-        └── [Configuration Files]
-```
-
-**Installation steps:**
-
-1. Open your GTA SA storage directory.
-2. Locate the `android_unprotected` folder.
-3. Open its `data` directory.
-4. Copy the provided `com.rockstargames.gtasa` folder into it.
-5. If prompted, merge the folders and replace the existing configuration files.
-
-**Important:**
-- Make sure the destination is `android_unprotected/data/`.
-- Do not accidentally create a duplicated nested folder.
-- Back up your original files before replacing them.
-- Keep the original folder structure intact.
-
-### 4. Launch the Game
-
-After completing the installation:
-
-1. Verify that both required plugins are installed.
-2. Check the configuration directory.
-3. Launch GTA San Andreas.
-4. Enjoy the modified graphics configuration.
-
-## ⚠️ Important Notes
-
-- The original GTA SA Timecyc and Colorcycle system is not used by this setup.
-- `libTimecyc24_64.so` is required for the custom Timecyc and Colorcycle.
-- ZyzzGFX Shader Plugin must be installed separately.
-- This repository only provides configuration files.
-- Intended for AML v2.10 64-bit.
-- Visual results may vary depending on device hardware, GPU, and game build.
-- Always keep a backup of your original files.
-
-## 🙏 Credits & Special Thanks
-
-Special thanks to the original developers and contributors:
-
-| Contributor | Contribution |
-|:--|:--|
-| **Killman aka RussJJ** | Author of `libTimecyc24_64.so` |
-| **Zyzz reincarnate** | Author of ZyzzGFX Shader Plugin |
-| **ZaxxETC** | Editing and configuration of Timecyc, Colorcycle 24H, and ZyzzGFX |
-
-All original plugins and their respective work belong to their authors.
-
-## 📜 Disclaimer
-
-This is an unofficial community-made graphics configuration for GTA San Andreas Android.
-
-This project is not affiliated with Rockstar Games or the original developers of the mentioned plugins.
-
-All original plugins, assets, and trademarks belong to their respective owners.
+- This project is an independent graphics configuration inspired by ENB SDGE Reborn 2.0.
+- It is not affiliated with or endorsed by the original ENB creator.
+- All plugin rights and credits belong to their respective creators.
+- This repository only provides configuration files, not the original plugin files.
 
 ---
 
-<p align="center">
-  <strong>Reimagining San Andreas, one configuration at a time.</strong>
-  <br>
-  <sub>Graphics configuration by ZaxxETC</sub>
-</p>
+<div align="center">
+
+**Made with passion by ZaxxETC.**
+
+</div>
